@@ -4,7 +4,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.json({msg: 'Olá Mundo!'})
+  res.json({msg: 'Olá Mundo do Docker!'})
 })
 
 app.listen(process.env.PORT, () => {
